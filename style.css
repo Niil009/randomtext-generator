@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.containor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 7vw 0vw 0vw 10vw;
+    background-color: rgba(158, 11, 134, 0.498);
+}
+
+#one {
+    font-size: 3vw;
+    color: aliceblue;
+}
+
+#one>h3>span {
+    font-size: 5vw;
+    color: rgb(30, 197, 219);
+}
+
+#two>h3 {
+    color: rgb(112, 202, 112);
+    font-size: 3vw;
+}
+
+#three {
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 8vh;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+input {
+    font-size: 1.5vw;
+    border: 0;
+    outline: 0;
+    width: 30vw;
+    background-color: aliceblue;
+}
+
+#three>i {
+    color: green;
+}
+
+#three:hover {
+    border: 2px solid gray;
+    box-shadow: 0px 0px 5px black;
+    /* transition-duration: 1s; */
+}
+
+button {
+    background-color: rgb(51, 190, 51);
+    border-radius: 0.5vw;
+    width: 13vw;
+    height: 7vh;
+    border: 1px solid green;
+    color: aliceblue;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+
+}
+
+button:hover {
+    background-color: rgb(8, 179, 122);
+    scale: 1.1;
+    transition-duration: 1s;
+}
